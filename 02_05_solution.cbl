@@ -20,14 +20,15 @@
 	  
 	   WORKING-STORAGE SECTION.
 		01   WS-CONSTANTS.
-		     05  WS-PI              PIC 9V99999 VALUE 3.14159.
+		     	05  WS-PI              PIC 9V99999 VALUE 3.14159.
 		01   WS-CIRCLE.
-             05 WS-AREA             PIC 999V99 VALUE ZEROES.
-             05 WS-RADIUS           PIC 9999V99 VALUE ZEROES.
-             05 WS-CIRCUMFERENCE    PIC 99999V99 VALUE ZEROES.
-        01   WS-DISPLAY-VALUES.
-             05 WS-DISPLAY-AREA          PIC ZZ99.99.
-             05 WS-DISPLAY-CIRCUMFERENCE PIC ZZ99.99.			 
+             		05 WS-AREA             PIC 999V99 VALUE ZEROES.
+            		05 WS-RADIUS           PIC 9999V99 VALUE ZEROES.
+            		05 WS-CIRCUMFERENCE    PIC 99999V99 VALUE ZEROES.
+      
+        	01   WS-DISPLAY-VALUES.
+             		05 WS-DISPLAY-AREA          PIC ZZ99.99.
+			05 WS-DISPLAY-CIRCUMFERENCE PIC ZZ99.99.			 
         
           
 
